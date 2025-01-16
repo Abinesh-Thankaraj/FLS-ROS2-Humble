@@ -23,21 +23,28 @@ This plugin was developed and tested using:
 
 ## Running the Project Locally
 
-### 1. Install Necessary Dependencies
+### Step 1: Install Necessary Dependencies
 Update the system and install required ROS2 packages:
 ```bash
 sudo apt update
 sudo apt install ros-humble-image-pipeline ros-humble-velodyne-simulator
 ```
 
-### 2. Clone the Repository
-Clone the project repository from GitHub:
+### Step 2: Create a Workspace and Clone Necessary Packages
+Create a new workspace, navigate to the src directory, and clone the required repositories:
 ```bash
+mkdir -p sonar_ros2/src
+cd sonar_ros2/src
+
 git clone https://github.com/Abinesh-Thankaraj/Sonar-ROS2-Humble.git
-cd Sonar-ROS2-Humble
+git clone https://github.com/Abinesh-Thankaraj/hydrographic_msgs.git
+```
+Navigate back to the workspace:
+```bash
+cd ..
 ```
 
-### 3. Build and Source the Package
+### Step 3: Build and Source the Package
 Build the package, source it, and add it to your ROS2 environment:
 ```bash
 colcon build
@@ -46,8 +53,8 @@ echo "source $(pwd)/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### 4. Sample Launch File
-Run the launch.py file using the provided sample launch file:
+### Step 4: Laucnh the Sample File
+Run the launch file for the `nps_uw_multibeam_sonar` package:
 ```bash
 ros2 launch nps_uw_multibeam_sonar sonar_tank_blueview_p900_nps_multibeam.launch.py
 ```
