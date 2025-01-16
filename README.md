@@ -62,9 +62,3 @@ Multibeam sonar Gazebo plugin with NVIDIA Cuda library
 For additional details and usage, refer to the [Field Robotics Lab Wiki](https://github.com/Field-Robotics-Lab/dave/wiki/Multibeam-Forward-Looking-Sonar).
 
 This plugin follows the same command-line conventions as ROS1, but with the updated ROS2 syntax.
-
-
-
-# Wiki
-All the command lines are the same as ROS1 but with the ROS2 key words.
-https://github.com/Field-Robotics-Lab/dave/wiki/Multibeam-Forward-Looking-Sonar
