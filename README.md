@@ -5,7 +5,7 @@ A ROS2 migration of the [nps_uw_multibeam_sonar package](https://github.com/Fiel
 ## Requirements
 
 - **ROS2 Humble**
-- **Gazebo 11**
+- **Gazebo 11.X.X**
 - NVIDIA GPU with at least 4GB memory
 - NVIDIA CUDA Toolkit (installation guide [here](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) and architecture compatibility [here](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html))
 
