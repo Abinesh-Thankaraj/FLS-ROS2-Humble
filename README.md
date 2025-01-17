@@ -28,6 +28,7 @@ Update the system and install required ROS2 packages:
 ```bash
 sudo apt update
 sudo apt install ros-humble-image-pipeline ros-humble-velodyne-simulator
+sudo apt-get install ros-humble-gazebo-plugins
 ```
 
 ### Step 2: Create a Workspace and Clone Necessary Packages
