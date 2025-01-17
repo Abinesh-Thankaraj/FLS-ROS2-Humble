@@ -1,6 +1,6 @@
 # FLS-ROS2-Humble
 
-A ROS2 migration of the [nps_uw_multibeam_sonar package](https://github.com/Field-Robotics-Lab/nps_uw_multibeam_sonar) for the Blueview m450, Blueview p900, Oculus m1200d, and Seabat f50 multibeam sonars. 
+A ROS2 migration of the [nps_uw_multibeam_sonar package](https://github.com/Field-Robotics-Lab/nps_uw_multibeam_sonar) for the  Blueview p900 multibeam sonar. 
 
 ## Requirements
 
@@ -53,11 +53,12 @@ echo "source $(pwd)/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### Step 4: Laucnh the Sample File
+### Step 4: Launch the Sample File
 Run the launch file for the `nps_uw_multibeam_sonar` package:
 ```bash
 ros2 launch nps_uw_multibeam_sonar sonar_tank_blueview_p900_nps_multibeam.launch.py
 ```
+![Image Description](FLS-Sample.png)
 
 ---
 
