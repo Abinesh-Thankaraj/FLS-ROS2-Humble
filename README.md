@@ -1,4 +1,4 @@
-# Sonar-ROS2-Humble
+# FLS-ROS2-Humble
 
 A ROS2 migration of the [nps_uw_multibeam_sonar package](https://github.com/Field-Robotics-Lab/nps_uw_multibeam_sonar) for the Blueview m450, Blueview p900, Oculus m1200d, and Seabat f50 multibeam sonars. 
 
@@ -36,7 +36,7 @@ Create a new workspace, navigate to the src directory, and clone the required re
 mkdir -p sonar_ros2/src
 cd sonar_ros2/src
 
-git clone https://github.com/Abinesh-Thankaraj/Sonar-ROS2-Humble.git
+git clone https://github.com/Abinesh-Thankaraj/FLS-ROS2-Humble.git
 git clone https://github.com/Abinesh-Thankaraj/hydrographic_msgs.git
 ```
 Navigate back to the workspace:
